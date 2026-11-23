@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{color: red;}  hepsine uygula */
+        /* p,a{color: blue;} istedklerine uygula */
+        /* div p{color: red;} divdeki p'lere uygula */
+        /* div>p{color: red;} parentı div olana uygula */
+        /* div+p{color: red;} divden sonra p gelirse uygula */
+        /* div~p{color: red;} divden sonra gelen(p) bütün hepsine uygula */
+        /* div>p:first-child{color: red;} parenti div olan p'nin ilk çoçuğuna uygula */
+        /* div>p:last-child{color: red;} parenti div olan p'nin son çoçuğuna uygula */
+        /* div>p:nth-child(3){color: red;} p'nin hangi çocuguna uygulanmasını istersen */ 
+        /* div>nav>a:nth-child(3){color: red;} */
+        /* .div2>ul>li:nth-child(2){color: red;} */
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>paragraf1</p>
+        <p>paragraf2</p>
+        <p>paragraf3</p>
+        <p>paragraf4</p>
+        <p>paragraf5</p>
+
+        <nav>
+            <p>paragraf6</p>
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </nav>
+
+        <a href="">link 4</a>
+        <a href="">link 5</a>
+    </div>
+
+    <div class="div2">
+        <p>paragraf 6</p>
+        <ul>
+            <li>li etiketi 1</li>
+            <li>li etiketi 2</li>
+            <li>li etiketi 3</li>
+        </ul>
+        <p>paragraf 7</p>
+        <p>paragraf 8</p>
+    </div>
+    <p>paragraf 9</p>
+    <p>paragraf 10</p>
+    <div>
+        <h3>h3 etiketi 1</h3>
+    </div>
+    <h3>h3 etiketi 2</h3>
+    <h3>h3 etiketi 3</h3>
+    <h3>h3 etiketi 4</h3>
+</body>
+
+</html>

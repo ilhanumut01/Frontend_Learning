@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ÖĞRENMEK</title>
+
+    <style>
+        .formDiv{
+            width: 320px;
+            background-color: rgb(165, 224, 13);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formDiv">
+        <form>
+            <table>
+                <tr>
+                    <td>Adınız:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Soyadınız:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email adres</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Şifre</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td>
+                        <input id="ErkekRadio" type="radio" name="cinsiyet">
+                        <label for="ErkekRadio">Erkek</label>
+                        <input id="kadınRadio" type="radio" name="cinsiyet">
+                        <label for="kadınRadio">Kadın</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Doğum Tarihi :</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">HOBİLER</th>
+                </tr>
+                <tr>
+                    <td>Kitap okumak</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Spor yapmak</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Enstrüman çalmak</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="" id="" cols="35" rows="10" placeholder="Mesajınız"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Onaylıyorum <input type="radio" name="sözleşme"> </td>
+                </tr>
+                <tr>
+                    <td>Onaylamıyorum <input type="radio" name="sözleşme"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Gönder">
+                        <input type="reset" value="Temizle">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

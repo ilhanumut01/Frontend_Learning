@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        ul {
+            background-color: rgb(87, 210, 16);
+            list-style-type: none;
+            width: 100%;
+        }
+
+        ul>li {
+            display: inline-block;
+            width: 110px;
+            padding: 10px;
+            margin-right: 20px;
+            margin-left: -40px;
+        }
+
+        ul>li:hover {
+            background-color: red;
+            transition: 0.5s;
+        }
+
+        ul>li>a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        i {
+            padding-right: 15px;
+        }
+
+        #news-content {
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-top: 10px;
+            margin-left: -15px;
+            width: 95px;
+        }
+
+        .news-li:hover #news-content {
+            display: block;
+        }
+
+        #news2-content {
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-left: 120px;
+            margin-top: -30px;
+            width: 95px;
+        }
+
+        .news2-li:hover #news2-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-sharp-duotone fa-solid fa-house"></i>Home</a></li>
+        <li class="news-li">
+            <a href="#"><i class="fa-sharp-duotone fa-solid fa-newspaper"></i>News</a>
+
+            <div id="news-content">
+                <ul>
+                    <li style="display: block;"><a href="#"></a>News 1</li>
+                    <li class="news2-li" style="display: block;"><a href="#"></a>News 2
+
+                        <div id="news2-content">
+                            <ul>
+                                <li><a href="#"></a>Detail 1</li>
+                                <li><a href="#"></a>Detail 2</li>
+                                <li><a href="#"></a>Detail 3</li>
+                                <li><a href="#"></a>Detail 4</li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li style="display: block;"><a href="#"></a>News 3</li>
+                    <li style="display: block;"><a href="#"></a>News 4</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="https://enesbayram.net/blogsitem/iletisim-temp.xhtml" target="_blank"><i
+                    class="fa-sharp-duotone fa-solid fa-address-card"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-sharp-duotone fa-solid fa-user"></i>About</a></li>
+    </ul>
+</body>
+
+</html>
